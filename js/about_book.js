@@ -1,14 +1,14 @@
-var offset=10;
-function setShortComment(){
-    $('.comment .showHide,.commentToComment .showHide').each(function(){
+var offset = 10;
+function setShortComment() {
+    $('.comment .showHide,.commentToComment .showHide').each(function() {
         var $container=$(this).parents(".commentText").find(".comment_text");
 
-        if( $container.height()== parseInt($container.css('max-height'))){
+        if( $container.height()== parseInt($container.css('max-height'))) {
             $(this).show();
         }
     })
 }
-function minimizeMaximize(comment){
+function minimizeMaximize(comment) {
    var container= comment.find('.commentToCommentContainer');
    if(container.hasClass('moreComments')){
        container.find('.commentToComment').show();
@@ -31,7 +31,7 @@ function minimizeMaximize(comment){
 $(document).ready(function() {
 
     setShortComment();
-    $('.commentContainer').each(function(){
+    $('.commentContainer').each(function() {
        minimizeMaximize($(this));
     });
     $('.arrow_comment').live('click',function(){
@@ -143,7 +143,7 @@ $(document).ready(function() {
                 if(result['status']==1){
                     buttons.addClass('user_plus');
                 }
-                if(result['status']==-1){
+                if(result['status']==-1) {
                     buttons.addClass('user_minus');
                 }
                 if(result['like']-result['dislike']>=0){
