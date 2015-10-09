@@ -1,0 +1,35 @@
+<?php
+	require("class.phpmailer.php");
+	if (class_exists(@PHPMailer))
+	{
+		$smtp_mail  = new PHPMailer();
+		$smtp_mail->isSMTP();
+		$smtp_mail->SMTPAuth   = true;
+		$smtp_mail->SMTPSecure = "ssl";
+		$smtp_mail->Host       = "smtp.gmail.com";
+		$smtp_mail->Port       = 465;
+		$smtp_mail->Username   = "software.aura@gmail.com";
+		$smtp_mail->Password   = "wbluesch";
+		$smtp_mail->From       = "software.aura@gmail.com";
+		$smtp_mail->FromName   = "Aura";
+		$smtp_mail->AltBody    = "This is test in plain text format";
+		$smtp_mail->WordWrap   = 50;
+		$smtp_mail->AddReplyTo("software.aura@gmail.com","Aura");
+		$smtp_mail->isHTML(true);
+#		$smtp_mail->AddAddress('yakuta.alexandr@gmail.com', 'Sansan');
+		$smtp_mail->AddAddress('andris174@gmail.com', 'san');
+		$smtp_mail->Subject    = "Alarm test Message"; // email subject
+		$smtp_mail->Body       = "Hi! \n\n This is my test e-mail sent through Google SMTP using PHPMailer from aura.vn.ua (aura.nest.vn.ua).";
+
+		if(!$smtp_mail->Send())
+		 {	echo 'Message was not sent.';
+			echo 'Mailer error: ' . $smtp_mail->ErrorInfo;
+		 } 
+		else
+		 {
+			echo 'Message has been sent.';
+		 }
+		echo "\n";
+	}
+?>
+ 

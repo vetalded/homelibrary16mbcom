@@ -1,0 +1,101 @@
+.private_account .main{
+    height: auto;
+}
+.colomn1{
+    box-sizing: border-box;
+    width: 450px;
+    font-size: 16px;
+    float: left;
+}
+
+.colomn1 .frame{
+    border: 1px solid rgb(102,102,102);
+    border-radius: 7px;
+    margin-bottom: 20px ;
+    padding: 7px;
+}
+
+.mySettings label, .input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.colomn1 label{
+    margin: 20px 0px 0px 0px;
+    color: #ccc;;
+    display: block;
+}
+
+.colomn1 span.required{
+    color: #fe1114;
+}
+
+.colomn1 .input{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 293px;
+    height: 20px;
+    background-color: #fffeee;
+    font-size: 14px;
+    padding: 5px 10px;
+
+}
+
+.colomn1 select{
+    border-radius: 5px;
+    width: 316px;
+    height: 32px;
+    background-color: #fffeee;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.center{
+    width: 330px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.settingsHeader{
+    text-align: center;
+    color: white;
+}
+.colomn1 .frame p{
+    padding: 0;
+}
+
+.colomn2{
+    box-sizing: border-box;
+    width: 180px;
+    font-size: 13px;
+    font-weight: bold;
+    float:left;
+    margin-left: 20px;
+}
+
+.avatar{
+    width: 100px;
+}
+
+.button-style
+{
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    float: right;
+    width:154px;
+    height: 32px;
+    line-height: 20px;
+}
+
+
+
+.displBlock{
+    display: block;
+}

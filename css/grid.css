@@ -1,0 +1,243 @@
+
+.grid-view
+{
+	width: 925px;
+	margin: 10px auto 25px auto;
+}
+
+.grid-view.small_grid
+{
+	width: 500px;
+	
+}
+
+.grid-view-loading
+{
+	background:url('../images/loading.gif') no-repeat;
+}
+
+.grid-view img
+{
+	margin: 5px 0px 2px 0px;
+}
+
+.grid-view table.items
+{
+	background: white;
+	border-collapse: collapse;
+	width: 925px;
+	border: 1px #C9D4E0 solid;
+}
+
+.grid-view.small_grid table.items
+{
+	width: 500px;
+	
+}
+
+.grid-view table.items tr
+{
+	cursor: pointer;
+}
+
+.grid-view table.items tr.selected
+{
+	background: #EAF1F2;
+}
+
+.grid-view table.items tr:hover
+{
+	background: #EAF1F2 !important;
+}
+
+.grid-view table.items tr.even
+{
+	background: #F9F9F9;
+}
+
+.grid-view table.items tr.odd
+{
+	/*background:#EFF1F2;*/
+}
+
+.grid-view table.items td
+{
+	border-bottom: 1px #C9D4E0 dashed;
+	border-top: 1px #C9D4E0 dashed;
+	padding: 2px 5px !important;
+}
+.grid-view table.items td a
+{
+	text-decoration: none;
+        color: 	#555555;
+        display: block;
+
+}
+.grid-view table.items th
+{
+	color: #0B75B2;
+	background-color: #EAF1F2;
+	background-image: none;
+	text-align: left;
+	height: 20px;
+	border: none;
+	padding: 3px 5px 3px 5px;
+	text-align: center;
+}
+
+.grid-view th a{ 
+	text-decoration: none !important;
+}
+
+.grid-view th a:hover{
+	text-decoration: underline !important;
+}
+
+.grid-view table.items th a.asc
+{
+	background:url('../images/down.gif') right center no-repeat;
+	padding-right: 20px;
+}
+
+.grid-view table.items th a.desc
+{
+	background:url('../images/up.gif') right center no-repeat;
+	padding-right: 20px;
+}
+
+.grid-view .link-column img
+{
+	border: 0;
+}
+
+.grid-view th img{
+	margin: 4px 0px 0px 0px;
+}
+
+.grid-view .button-column
+{
+	width: 78px;
+	text-align: center;
+	padding: 0px !important;
+}
+
+.grid-view th.button-column 
+{
+	border: none !important;
+}
+
+.grid-view .button-column img
+{
+	padding: 0px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
+	width: 16px;
+}
+
+.grid-view .button-column a
+{
+    float: left;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+.grid-view .checkbox-column
+{
+	width: 15px;
+}
+
+.grid-view .summary
+{
+	margin: 0 0 5px 0;
+	text-align: right;
+}
+
+.grid-view .pager
+{
+	margin: 5px 0 0 0;
+	text-align: right;
+}
+
+.grid-view .empty
+{
+	font-style: italic;
+}
+
+.grid-view .filters
+{
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px #C9D4E0 solid;
+	border-top: 1px #C9D4E0 solid;
+	background-color: #fff;
+}
+
+.grid-view table.items .filters td
+{
+	padding: 1px 3px 1px 3px;
+}
+
+.grid-view table.items .filters input,
+.grid-view table.items .filters select
+{
+	width: 100%;
+	border: 1px solid #C9D4E0;
+	background-color: #fff;
+}
+
+
+table.detail-view .null
+{
+	color: pink;
+}
+
+table.detail-view
+{
+	background: white;
+	border-collapse: collapse;
+	margin: 10px 25px 25px 25px;
+}
+
+table.detail-view th, table.detail-view td
+{
+	font-size: 0.9em;
+	border: 1px white solid;
+	padding: 0.3em 0.6em;
+	vertical-align: top;
+}
+
+table.detail-view th
+{
+	text-align: right;
+	width: 160px;
+}
+
+table.detail-view tr.odd
+{
+	background:#E5F1F4;
+}
+
+table.detail-view tr.even
+{
+	background:#F8F8F8;
+}
+ul.menu {
+    padding: 10px 10px 10px 30px ;
+}
+ul.menu li{
+ float: left ;
+ margin-left: 10px;
+ list-style-type:none;
+}
+ul.menu li a{
+    text-decoration: none;
+}
+h1{
+    margin-left: 25px;
+}
+p{
+    padding: 10px;
+}
+.search-button{
+     padding: 10px;
+    text-decoration: none;
+}

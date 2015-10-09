@@ -1,0 +1,37 @@
+.header_main{
+    background-color: #000;
+    color: #fff;
+    height: 32px;
+    width: 100%;
+    z-index: 6000;
+}
+.header_main #q{
+    float: right;
+    margin-top: 5px;
+
+    padding: 1px 5px;
+    width: 200px;
+}
+.header_main_fixed{
+    position: fixed;
+}
+.user{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 20px 5px;
+    float: left;
+    background-color: #0e0e0e;
+    cursor: pointer;
+}
+.header_main input[type=button]{
+    position: relative;
+    background-image: url("/images/search.png");
+    background-size: 100%;
+    border: none;
+    right: 20px;
+    margin-right:-20px ;
+    width: 20px;
+    height: 19px;
+    margin-top: 6px;
+    cursor: pointer;
+}

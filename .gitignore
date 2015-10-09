@@ -1,0 +1,6 @@
+*.komodoproject
+.komodotools
+*-local.php
+/nbproject/private/
+/nbproject
+.idea

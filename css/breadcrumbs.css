@@ -1,0 +1,33 @@
+.breadcrumbs
+{
+	float: left;
+	/*text-transform: uppercase;*/
+}
+
+.breadcrumbs a
+{
+	/*color:#fff;*/
+	background-color:transparent;
+	font-size:13px;
+	font-weight:bold;
+	/*text-decoration:none;*/
+	/*padding: 7px 7px 7px 7px;*/
+	/*text-transform: uppercase;*/
+	padding: 7px 4px 7px 4px;
+}
+
+.breadcrumbs a:hover
+{
+	/*color: #4F4A46;*/
+	/*background-color:#EAE2DA;*/
+	/*text-decoration:none;*/
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+	/*text-transform: uppercase;*/
+	/*padding: 7px 7px 8px 7px;*/
+	padding: 7px 4px 8px 4px;
+}
+

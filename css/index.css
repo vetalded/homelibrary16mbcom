@@ -1,0 +1,36 @@
+.book-slider-description{
+    width:50%;
+    margin-left:50%;
+    height: 100%;
+    background-color: rgba(65, 76, 146, 0.16)
+}
+#slideshow a{
+    text-decoration:none;
+}
+.book-slider-about{
+    font-size:16px;
+    color:rgba(255,255,255,1);
+    margin-bottom:40px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.book-slider-about tr{
+    height: 30px;
+}
+#slideshow a img{
+    width: 450px;
+    height: 350px;
+}
+#slideshow{
+    width: 100%!important;
+}
+.book-slider-about th{
+    width: 130px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight:bold ;
+    vertical-align: top;
+}
+.book-slider-about td{
+    vertical-align: top;
+}

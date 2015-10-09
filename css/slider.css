@@ -1,0 +1,84 @@
+.slider_menu{
+	clear: both;
+	background-color:#333333;
+  width:100%;
+	margin: 0px 0px 5px 0px;
+}
+
+.slider_menu ul{ overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.slider_menu li{
+	list-style: none;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	color: #fff;
+	cursor: pointer; 
+}
+
+.slider_menu li:hover{
+	background-color: #0B75B2;
+}
+
+.slider_menu_active{
+	background-color: #0B75B2;
+}
+
+
+#slider_wrapper{
+	overflow: hidden;
+	width: 980px;
+	height: 100%; 
+}
+
+#slider_ul{
+	display: none;
+	height:100%;
+  width: auto; 
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#slider_ul .slider_box{
+  float:left;
+  width:980px;
+	list-style: none; 
+}
+
+.confirm_message{
+	font-size: 24px;
+	color: #0B75B2;
+	margin: 15px 25px 1px 25px;
+}
+
+
+.slider_box .treeview{
+	margin: 10px 25px 0px 25px;
+}
+
+.slider_box .treeview input, 
+.slider_box .treeview label{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

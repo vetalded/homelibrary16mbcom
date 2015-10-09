@@ -1,0 +1,22 @@
+#rights.grid-view{
+  overflow-x: auto;
+  margin-top: 25px;
+}
+
+#rights.grid-view td, #rights.grid-view th{
+  padding: 2px;
+}
+
+#rights.grid-view td{
+  text-align: center;
+  border-right: 1px #ccc dashed;
+}
+
+#rights.grid-view thead th{
+  border: 1px #ccc solid;
+}
+
+#rights.grid-view .rights_utype{
+  width: 150px;
+}
+

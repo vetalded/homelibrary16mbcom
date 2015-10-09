@@ -1,0 +1,98 @@
+form.register_form label{
+	display:block;
+	margin: 20px 0px 0px 0px;
+	
+}
+form.register_form input[type=text],form.register_form input[type=password]{
+	display: block;
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 293px;
+	height: 20px;
+	background-color: #fffeee;
+	font-size: 14px;
+    padding: 5px 10px;
+}
+form.register_form input[type=submit]{
+    background-color: rgba(0, 0, 0, 0);
+    border-width:0px ;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    float: right;
+}
+.month{
+	width: 120px;
+}
+.day{
+	width: 80px;
+}
+.year{
+	width: 100px;
+}
+form select{
+    font-size: 14px;
+    height: 34px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.register_form{
+    border-right:1px solid ;
+    width: 323px;
+    padding-right: 120px;
+    float: left;
+
+}
+.city{
+    width: 316px;
+}
+.register_form span.required{
+    color: #fe1114;
+}
+.register_form .errorMessage{
+    margin-left: 0px;
+}
+
+.captcha{
+
+	width: 298px;
+	height: 60px;
+	border:2px solid rgb(154,154,154);
+	border-radius: 7px;
+}
+.captcha input{
+	float: right;
+	width: 150px;
+	height: 24px;
+	margin-right: 18px;
+}
+.captcha p{
+	float: right;
+	width: 190px;
+	font-size: 0.85rem;
+	font-weight: normal;
+	text-align: center;
+}
+.register_benefits{
+    padding: 200px 20px 100px 50px;
+    float: left;
+}
+.register_benefits p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.register_benefits ul{
+    padding-left: 30px;
+    width: 350px;
+}
+.register_benefits ul li{
+    list-style-type: disc;
+    font-size: 14px;
+    margin-top: 10px;
+}

@@ -1,0 +1,40 @@
+.upload_img{
+	float: left;
+}
+
+.upload_img_no{
+	display: none;
+}
+
+.upload_file{
+	width: 270px !important;
+}
+
+#preview1{
+	float: left;
+}
+
+.preview{
+	float: left;
+}
+
+.preview img{
+	height: 50px;
+	margin: 0px 0px 0px 10px;
+}
+
+#preview1 img, #preview2 img{
+	height: 50px;
+	margin: 0px 0px 0px 10px;
+}
+
+.image_container{
+	float: left;
+	margin: 0px 0px 10px 5px;
+}
+
+.delete_img{
+	margin: 0px 0px 0px 3px;
+	cursor: pointer;
+	width: 20px;
+}

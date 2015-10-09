@@ -1,0 +1,41 @@
+.ic_menu{
+	margin: 0px 0px 30px 0px;
+	border-top:1px solid #C9D4E0;
+}
+
+.ic_menu li{
+	list-style: none;
+	padding: 5px 5px 5px 25px;
+	border-bottom:1px solid #C9D4E0;
+	font-size:14px;
+	line-height:20px;
+}
+
+.ic_menu a{
+	text-decoration: none !important;
+	color: #0B75B2;
+}
+
+.ic_menu a:hover{
+	text-decoration: underline !important;
+	color: #95B5C6;
+}
+
+.ic_menu ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.ic_menu_lable{
+	border: none !important;
+	padding: 0px !important;
+}
+	
+.ic_menu span{
+	display: block;
+  font-size:14px;
+	padding: 6px 10px 6px 15px;
+	border-bottom:1px solid #C9D4E0;
+	/*border-top:1px solid #C9D4E0;*/
+	background-color: #EAF1F2;
+}
