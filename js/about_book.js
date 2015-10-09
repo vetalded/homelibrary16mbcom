@@ -31,7 +31,7 @@ function minimizeMaximize(comment) {
 $(document).ready(function() {
 
     setShortComment();
-    $('.commentContainer').each(function(){
+    $('.commentContainer').each(function() {
        minimizeMaximize($(this));
     });
     $('.arrow_comment').live('click',function(){
