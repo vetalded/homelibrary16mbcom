@@ -1,6 +1,6 @@
 var offset = 10;
-function setShortComment(){
-    $('.comment .showHide,.commentToComment .showHide').each(function(){
+function setShortComment() {
+    $('.comment .showHide,.commentToComment .showHide').each(function() {
         var $container=$(this).parents(".commentText").find(".comment_text");
 
         if( $container.height()== parseInt($container.css('max-height'))){
@@ -8,7 +8,7 @@ function setShortComment(){
         }
     })
 }
-function minimizeMaximize(comment){
+function minimizeMaximize(comment) {
    var container= comment.find('.commentToCommentContainer');
    if(container.hasClass('moreComments')){
        container.find('.commentToComment').show();
