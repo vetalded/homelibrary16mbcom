@@ -15,7 +15,7 @@ $this->beginWidget('zii.widgets.jui.CJuiDialog', array(
 ));
 ?>
 
-<div class="dialog_window editBook">
+<div class="dialog_window editBook ">
     <form action="" class="bookAddForm">
         <p>Редагувати книгу</p>
         <div class="row">
