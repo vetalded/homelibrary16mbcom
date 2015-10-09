@@ -3,7 +3,7 @@ function setShortComment() {
     $('.comment .showHide,.commentToComment .showHide').each(function() {
         var $container=$(this).parents(".commentText").find(".comment_text");
 
-        if( $container.height()== parseInt($container.css('max-height'))){
+        if( $container.height()== parseInt($container.css('max-height'))) {
             $(this).show();
         }
     })
@@ -143,7 +143,7 @@ $(document).ready(function() {
                 if(result['status']==1){
                     buttons.addClass('user_plus');
                 }
-                if(result['status']==-1){
+                if(result['status']==-1) {
                     buttons.addClass('user_minus');
                 }
                 if(result['like']-result['dislike']>=0){
