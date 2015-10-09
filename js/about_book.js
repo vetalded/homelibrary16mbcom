@@ -1,4 +1,4 @@
-var offset=10;
+var offset = 10;
 function setShortComment(){
     $('.comment .showHide,.commentToComment .showHide').each(function(){
         var $container=$(this).parents(".commentText").find(".comment_text");
